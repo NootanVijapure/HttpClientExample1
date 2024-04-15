@@ -1,22 +1,8 @@
-# find out current active trasaction
+Exercise 1: DELETE Operation
+Task: Implement a Java program that sends an HTTP DELETE request to a specified URL.
 
-  private static void updateQuery() throws SQLException {
-        String sql ...
-        }
-    }
+Exercise 2: PUT Operation
+Task: Develop a Java application that sends an HTTP PUT request to update an existing resource on a server.
 
-    private static boolean isCurrentActiveTransaction() throws SQLException {
-       
-
-        String sql = "SELECT \n" +
-                     "    COUNT(1) AS count\n" +
-                     "FROM\n" +
-                     "    INFORMATION_SCHEMA.INNODB_TRX\n" +
-                     "WHERE\n" +
-                     "    trx_mysql_thread_id = CONNECTION_ID()";
-
-       
-}
-    
-
-
+Exercise 3: POST Operation
+Task: Create a Java program that sends an HTTP POST request to create a new resource on a server.
